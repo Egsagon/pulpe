@@ -1,0 +1,107 @@
+body {
+    background-color: #26272f;
+    color: #fff;
+    font-family: Poppins;
+}
+
+#bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 40px - 25px);
+    height: 80px;
+    padding: 40px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background-color: #26272f;
+}
+
+#bar h1 {
+    margin: 20px;
+    font-size: 35px;
+    letter-spacing: 8px;
+    font-family: Comfortaa;
+    user-select: none;
+}
+
+#bar img {
+    width: 75px;
+    user-select: none;
+}
+
+#cmd {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+#cmd i {
+    margin: 10px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #1e2026;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cmd i:hover {
+    scale: 1.25;
+}
+
+#cmd input {
+    border: none;
+    width: 0;
+    padding: 0;
+    outline: none;
+    color: #fff;
+    background-color: #26272f;
+    padding: 3px 10px;
+    border-radius: 30px;
+    flex-grow: 1;
+    display: none;
+}
+
+#cmd .search.active {
+    border-radius: 30px;
+    width: 120px;
+}
+
+#cmd .search.active:hover {
+    scale: 1;
+}
+
+#cmd .search.active input {
+    height: 100%;
+    margin-left: 5px;
+    display: block;
+}
+
+#grid {
+    margin: 30px;
+    margin-top: 160px;
+}
+
+#grid video {
+    background-color: #1e2026;
+    border-radius: 16px;
+}
+
+#grid > .video {
+    margin-bottom: 20px;
+}
+
+#grid > .video::before {
+    position: absolute;
+    content: attr(data-name, "Video");
+    z-index: 1;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #1e2026;
+}
