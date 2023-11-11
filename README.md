@@ -14,9 +14,9 @@ It also exports and renames Outplayed recordings so you don't have to deal with 
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/Egsagon`
+1. Clone this repository: `git clone https://github.com/Egsagon/pulpe`
 2. Start the `pulpe.bat` file. While it remains opened, the server is running.
-3. Open (this URL)[http://127.0.0.1:5000/] in your prefered browser.
+3. Open [this URL](http://127.0.0.1:5000/) in your prefered browser.
 
 ## Demo
 
