@@ -18,6 +18,12 @@ It also exports and renames Outplayed recordings so you don't have to deal with 
 2. Start the `pulpe.bat` file. While it remains opened, the server is running.
 3. Open (this URL)[http://127.0.0.1:5000/] in your prefered browser.
 
+## Demo
+
+<p align="center">
+<img src="https://github.com/Egsagon/pulpe/blob/15604a2d598a7c5887a3d6a83d7630c2e30aea07/demo.png" width="500px">
+</p>
+
 ## Manual interactions
 
 If you have already extracted some videos and you want to view them with Pulpe, simply copy them into the `pulpe/data` folder.
