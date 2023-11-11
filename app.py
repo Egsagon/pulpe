@@ -108,7 +108,8 @@ def search():
     
     return [os.path.basename(path)
             for path in sorted(glob.glob(f'{OUTPUT}/*{query}*.mp4'),
-                               key = os.path.getmtime)][page:page + PAGE_LENGTH]
+                               key = os.path.getmtime,
+                               reverse = True)][page:page + PAGE_LENGTH]
 
 @app.route('/refresh')
 def refresh():
