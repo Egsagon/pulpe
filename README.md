@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Egsagon/pulpe/master/client/logo.svg"
+<img src="https://github.com/Egsagon/pulpe/blob/ed6b0a9554a2f8ca46e8e4a125ec1dcbb0fbc338/client/logo.svg"
        align="right"
        width="200px">
 
