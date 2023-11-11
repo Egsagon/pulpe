@@ -104,4 +104,5 @@ body {
     padding: 10px;
     border-radius: 30px;
     background-color: #1e2026;
+    transform: translate(20px, 20px);
 }

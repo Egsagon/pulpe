@@ -14,12 +14,14 @@ search = () => {
     $.getJSON(`/search?query=${current_search}&page=${current_page}`, els => {
         $(els).each((i, el) => {
 
-            video_name = el.replace('_', ' ')
-                           .replace('-', ' ')
-                           .replace('.mp4', '')
+            video = el.replace('_', '-')
+                      .replace('.mp4', '')
+                      .split('-')
+
+            agent = video[0].charAt(0).toUpperCase() + video[0].slice(1)
 
             grid.append(`
-            <div class="video" data-name="${video_name}">
+            <div class="video" data-name="${agent} (${video[1].toUpperCase()})">
                 <video class="video-js vjs-fill" controls>
                     <source src="/get/${el}">
                 </video>
